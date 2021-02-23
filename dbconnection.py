@@ -44,15 +44,15 @@ import boto3
 import datetime
 import pymysql
 #
-# MYSQL_DATABASE_USER = 'sudeesh'
-# MYSQL_DATABASE_PASSWORD = 'Pleas3Chang3Passw0rd!'
-# MYSQL_DATABASE_DB = 'junodb'
-# MYSQL_DATABASE_HOST = 'junodb.c435hsq53dfq.us-east-1.rds.amazonaws.com'
-
-MYSQL_DATABASE_USER = 'admin'
-MYSQL_DATABASE_PASSWORD = 'Radha456'
-MYSQL_DATABASE_DB = 'juno'
-MYSQL_DATABASE_HOST = 'eadha-docker.cutn3y51xkog.us-west-2.rds.amazonaws.com'
+MYSQL_DATABASE_USER = 'sudeesh'
+MYSQL_DATABASE_PASSWORD = 'Pleas3Chang3Passw0rd!'
+MYSQL_DATABASE_DB = 'junodb'
+MYSQL_DATABASE_HOST = 'junodb.c435hsq53dfq.us-east-1.rds.amazonaws.com'
+post_db_url = 'mysql+pymysql://sudeesh:Pleas3Chang3Passw0rd!@junodb.c435hsq53dfq.us-east-1.rds.amazonaws.com/junodb'
+# MYSQL_DATABASE_USER = 'admin'
+# MYSQL_DATABASE_PASSWORD = 'Radha456'
+# MYSQL_DATABASE_DB = 'juno'
+# MYSQL_DATABASE_HOST = 'eadha-docker.cutn3y51xkog.us-west-2.rds.amazonaws.com'
 from pymysql import cursors
 
 def db_conncetion():
