@@ -10,6 +10,7 @@ WORKDIR /libfaketime/src
 RUN make install
 RUN export LD_PRELOAD=/usr/local/lib/faketime/libfaketime.so.1
 WORKDIR /
+ADD . /
 RUN pip install -U click
 RUN pip install --editable .
 ENTRYPOINT ["juno"]
